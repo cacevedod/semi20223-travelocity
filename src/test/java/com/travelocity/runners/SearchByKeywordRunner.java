@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty"},
         features = "src/test/resources/features/search/search_by_keyword.feature",
-        glue = {"starter.stepdefinitions"}
+        glue = {"com.travelocity.stepdefinitions"}
 )
 public class SearchByKeywordRunner {}
