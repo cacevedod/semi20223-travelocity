@@ -5,8 +5,8 @@ Característica: Vuelos redondos
   para facilitar mis viajes de paseo
 
   Escenario: vuelo redondo con opciones por defecto
-    Dado Yoimar esta en "Medellin"
-    Cuando quiera viajar a "Cancun" por 15 dias
+    Dado Yoimar esta en "Medellín"
+    Cuando quiera viajar a "Cancún" por 15 dias
     Entonces debe obtener alguna opcion de vuelo
 
   @manual
