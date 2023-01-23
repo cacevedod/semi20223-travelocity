@@ -10,5 +10,6 @@ public class DetalleVuelos {
     public static final Target SELECT_DATE_REGRESO = Target.the("selector de fecha regreso").locatedBy("//button[@id='d2-btn']");
     public static final Target DATE_REGRESO = Target.the("calendar fecha regreso").locatedByFirstMatching("//button[@data-day='17']");
     public static final Target BUT_BUSCAR = Target.the("boton buscar vuelos").locatedBy("//button[@data-testid='submit-button']");
+    public static final Target BUT_LISTO_DATE = Target.the("boton listo date vuelos").locatedBy("//button[@data-stid='apply-date-picker']");
 
 }

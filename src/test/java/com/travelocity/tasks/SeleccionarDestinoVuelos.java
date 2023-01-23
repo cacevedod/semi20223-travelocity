@@ -29,6 +29,7 @@ public class SeleccionarDestinoVuelos implements Task {
             Enter.theValue(this.destino).into(DetalleVuelos.IN_DESTINO).thenHit(Keys.ENTER),
             Click.on(DetalleVuelos.SELECT_DATE_REGRESO),
             Click.on(DetalleVuelos.DATE_REGRESO),
+            Click.on(DetalleVuelos.BUT_LISTO_DATE),
             Click.on(DetalleVuelos.BUT_BUSCAR)
         );
     }
